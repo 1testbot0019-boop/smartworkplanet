@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f7f7f7;
+  color: #222;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+input, textarea, select {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.btn-primary {
+  background: #1dbf73;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background: #0a9d5a;
+}
+
+.btn-outline {
+  background: #fff;
+  color: #1dbf73;
+  border: 2px solid #1dbf73;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-outline:hover {
+  background: #f0fdf6;
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  border: 1px solid #eee;
+  padding: 24px;
+}
+
+.error {
+  color: #e53935;
+  font-size: 14px;
+  margin-top: 6px;
+}
+
+.success {
+  color: #1dbf73;
+  font-size: 14px;
+  margin-top: 6px;
+}
